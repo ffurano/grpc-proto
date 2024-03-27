@@ -16,8 +16,8 @@
 
 
 // NOTE: Compile for Go with:
-// protoc ./eos_grpc.proto --go_out=plugins=grpc:.
-
+// protoc ./Rpc.proto --go_out=plugins=grpc:.
+// protoc --go_out=. ./Rpc.proto
 
 syntax = "proto3";
 
